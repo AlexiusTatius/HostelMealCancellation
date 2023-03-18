@@ -6,9 +6,9 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const { authenticate, adminAuthenticate } = require('../middleware/authenticate')
 
-router.get('/', (req, res) => {
-    res.send(`Hello world from the server router js`);
-});
+// router.get('/', (req, res) => {
+//     res.send(`Hello world from the server router js`);
+// });
 
 
 router.post('/register', async (req, res) => {

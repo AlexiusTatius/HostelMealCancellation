@@ -5,7 +5,7 @@ const app = express();
 const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: './.env' });
 
 require('./db/conn');
 // const {User, Admin} = require('./model/userSchema');
